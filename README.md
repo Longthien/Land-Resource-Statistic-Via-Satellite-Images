@@ -5,7 +5,7 @@ This repository provides functionality for calculating the area within an admini
 #Key functions:
 
 1. geo_func.py: It includes various geometry functions to support the manipulation of geometric data. For example, it can split a largepolygon into smaller squares and read geometry data from the dataset.
-2. Satellite_Image_Collector.py: This function installs satellite images based on the provided coordinates of the top-left and bottom-right points.
+2. Satellite_Image_Collector.py: This function installs satellite images based on the provided coordinates of the top-left and bottom-right points. This source code is based on [here](https://github.com/andolg/satellite-imagery-downloader/)
 3. render_mask.py: This function maps the boundary and the image to determine whether pixels fall within the boundary.
 4. render_report.py: It calculates the area based on the mask and annotation images.
 
